@@ -10,7 +10,11 @@ set mousemodel=popup_setpos
 set columns=80
 set lines=24
 
-set guifont=Source\ Code\ Pro\ 12
+if has('win32')
+	set guifont=Consolas:h12:cANSI
+else
+	set guifont=Source\ Code\ Pro\ 12
+endif
 
 set background=dark
 let g:gruvbox_invert_tabline = 1
