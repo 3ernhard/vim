@@ -775,14 +775,10 @@ call s:HL('DiffText',   s:gb.yellow, s:gb.bg0, s:inverse)
 " Spelling: {{{
 
 if has("spell")
-  " Not capitalised word, or compile warnings
-  if g:gruvbox_improved_warnings == 0
-    hi! link SpellCap GruvboxYellowUnderline
-  else
-    call s:HL('SpellCap',   s:gb.yellow, s:none, s:bold . s:italic)
-  endif
   " Not recognized word
   hi! link SpellBad GruvboxRedUnderline
+  " Not capitalised word, or compile warnings
+  hi! link SpellCap GruvboxYellowUnderline
   " Wrong spelling for selected region
   hi! link SpellLocal GruvboxBlueUnderline
   " Rare word
