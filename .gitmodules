@@ -1,9 +1,0 @@
-[submodule "pack/ale/start/ale"]
-	path = pack/ale/start/ale
-	url = https://github.com/dense-analysis/ale
-[submodule "pack/tex/start/vimtex"]
-	path = pack/tex/start/vimtex
-	url = https://github.com/lervag/vimtex
-[submodule "pack/python/start/jedi-vim"]
-	path = pack/python/start/jedi-vim
-	url = https://github.com/davidhalter/jedi-vim

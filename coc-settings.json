@@ -1,0 +1,11 @@
+{
+	"extensions.updateCheck": "never",
+	"diagnostic.enableSign": false,
+	"diagnostic.enableHighlightLineNumber": false,
+	"snippets.userSnippetsDirectory": "~/.vim/snip",
+	"suggest.autoTrigger": "always",
+	"suggest.noselect": true,
+	"pyright.inlayHints.functionReturnTypes": false,
+	"pyright.inlayHints.variableTypes": false,
+	"pyright.inlayHints.parameterTypes": false
+}
