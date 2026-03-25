@@ -2,7 +2,7 @@
 	"extensions.updateCheck": "never",
 	"diagnostic.enableSign": false,
 	"diagnostic.enableHighlightLineNumber": false,
-	"snippets.userSnippetsDirectory": "~/.vim/snip",
+	"snippets.userSnippetsDirectory": "~/.config/vim/snip",
 	"suggest.autoTrigger": "always",
 	"suggest.noselect": true,
 	"pyright.inlayHints.functionReturnTypes": false,
